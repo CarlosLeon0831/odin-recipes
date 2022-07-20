@@ -26,6 +26,12 @@ h3 {
     font-size: 2em;
 }
 
+.content {
+    max-width: 1140px;
+    margin: auto;
+    padding: 1rem;
+}
+
 .main-nav__logo {
     float: left;
     max-width: 80rem;
@@ -43,25 +49,14 @@ h3 {
     text-decoration: none;
 }
 
-.title-hangul {
-    color: #2F8ADB;
-}
-
-
-.steps__list li{
-    padding: 1rem;
-}
-
-.content {
-    max-width: 1140px;
-    margin: auto;
-    padding: 1rem;
-}
-
 .header__container {
     max-width: 80rem;
     padding-left: 2rem;
     padding-right: 2rem;
+}
+
+.title-hangul {
+    color: #2F8ADB;
 }
 
 .header__image {
@@ -74,7 +69,7 @@ h3 {
 }
 
 .header__image img {
-    display: block;
+    display: block; /* img is an inline element */
     width: 100%;
     height: 100%;
     float: none;
@@ -102,4 +97,8 @@ h3 {
 
     padding-left: 2rem;
     padding-right: 2rem;
+}
+
+.steps__list li{
+    padding: 1rem;
 }
