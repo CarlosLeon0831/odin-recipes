@@ -26,6 +26,23 @@ h3 {
     font-size: 2em;
 }
 
+.main-nav__logo {
+    float: left;
+    max-width: 80rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: #EB7982;
+    text-decoration: none;
+}
+
+.main-nav__logo:hover {
+    color: #DC040F;
+    text-decoration: none;
+}
+
 .title-hangul {
     color: #2F8ADB;
 }
