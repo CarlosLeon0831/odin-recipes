@@ -30,6 +30,10 @@ h3 {
     font-size: 2em;
 }
 
+ul {
+    list-style: none;
+}
+
 .content {
     max-width: 1140px;
     margin: auto;
@@ -92,23 +96,32 @@ h3 {
     max-width: 80rem;
     margin-left: 2rem;
     margin-right: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
     padding-bottom: 2rem;
 }
 
 .steps__container {
     max-width: 80rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
 
 
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .steps__list li{
     padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.step__number {
+    color: #EB7982;
+    font-size: 32px;
+    font-family: 'Black Han Sans', sans-serif;
+    display: flex;
+    margin: 0;
 }
 
 @media screen and (max-width:700px) {
@@ -118,6 +131,14 @@ h3 {
 
     h2 {
         font-size: 2em;
+    }
+    .ingredients__container {
+        padding: 0;
+        margin: 0 1rem;
+    }
+    .steps__container {
+        padding: 0;
+        margin: 0 1rem;
     }
 }
 
@@ -133,6 +154,12 @@ h3 {
     h3 {
         font-size: 1.5rem;
     }
+
+    .ingredients__container {
+        padding: 0;
+        margin: 0 1rem;
+    }
+
 
     .steps__container {
         padding: 0;
