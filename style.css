@@ -14,7 +14,7 @@ body {
 
 html, body {
     margin: 0;
-    height: 100%;
+    min-height: 100%;
 }
 
 li,p {
@@ -22,7 +22,7 @@ li,p {
 }
 
 .content {
-    background-color: #EB7982;
+
     max-width: 1140px;
     margin: auto;
     height: 100%;
@@ -33,6 +33,7 @@ li,p {
 /* Navbar & image */
 
 .main-nav {
+    background-color: #EB7982;
     max-width: 80rem;
     float: left;
     padding: 1rem;
@@ -78,7 +79,6 @@ li,p {
 
 .main-nav__logo {
     padding: 1.05rem;
-    margin-right: 3rem;
     font-size: 1.5rem;
     display: flex;
     flex-direction: row;
@@ -152,11 +152,11 @@ li,p {
 }
 
 .info__container p {
-    color: #383838;
+    color: #727272;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: lighter;
-    padding: 2rem;
+    padding: 2rem 10rem;
 }
 
 .footer__container {
